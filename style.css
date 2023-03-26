@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{  
+    background-image: conic-gradient(rebeccapurple, rgb(15, 107, 107), rgb(18, 165, 18), rgb(64, 64, 241), rgb(190, 0, 190));
+   margin: 0;
+   overflow:hidden;
+}
+.main-container{
+    margin: 0;
+    display: flex;
+    background-color: white;
+    margin: 0px 220px 0px 220px;
+   
+}
+
+.sign-up-form{
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+
+    width: 100%;
+    padding: 50px;
+    margin: 0px 0 40px 0;
+    height: 26vh; 
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 20px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px 0 0;
+}
+
+h2{
+    font-size: 24px;
+    margin: 50px 0 0px 0;
+    
+}
+
+.credits{
+    height: 25px;
+    width: 30vw;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+    position: absolute;
+    bottom: 50px;
+    left: 220px;
+    text-align: center;
+}
+
+.textcontent{
+    text-align:start;
+    font-size: 20px;
+    font-weight: bold;
+    width: 28vw;
+    margin: 140px 0 0 46px;
+    line-height: 22px;
+}
+
+img{
+    width: 30vw;
+    height: 100vh;
+   
+}
+
+.logo-back{
+    position: absolute;
+    top: 130px;
+    width: 30vw;
+    height: 115px;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+.logo{
+    position: absolute;
+    left: 220px;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.right-content{
+    width: 70vw;
+    height: 100vh;
+   
+}
+.left-content{
+    width: 30vw;
+    height: 100vh;
+}
+/*Apply these styles when the screen width is <= 1200px*/
+@media only screen and (max-width: 1200px){
+
+    .main-container{
+        margin: 0;
+        display: flex;
+        background-color: white;
+        margin: 150px 0px 150px 0px;
+        
+    }
+    .textcontent{
+        text-align:start;
+        font-size: 18px;
+        font-weight: bold;
+        width: 42vw;
+        margin-top: 20px;
+        line-height: 22px;
+    }
+    
+    img{
+        height: 70vh;
+        width: 35vw;
+    }
+    
+    .left-content{
+        height: 70vh;
+        width: 35vw;
+        
+    }
+    .right-content{
+        height: 70vh;
+        width: 65vw;
+    }
+
+    .logo-back{
+        position: absolute;
+        top: 260px;
+        width: 35vw;
+        height: 115px;
+        background-color: #000;
+        color: #fff;
+        opacity: .5;
+    }
+    
+    .logo{
+        position: absolute;
+        left: 150px;
+        top: 8px;
+        width: 100px;
+        height: 100px;
+    }
+    .credits{
+        height: 25px;
+        width: 34.8vw;
+        background-color: #000;
+        color: #fff;
+        opacity: .8;
+        position: absolute;
+        bottom: 160px;
+        left: 1px;
+        text-align: center;
+    }
+    .sign-up-form{
+        background-color: #F6F7F8;
+        border: 1px solid #D6D9DC;
+        border-radius: 3px;
+    
+        width: 100%;
+        padding: 50px;
+        margin: 0px 0 40px 0;
+        height: 26vh; 
+    }
+}
+
