@@ -55,6 +55,7 @@
     flex-direction: column;
     border: 1px solid #E5E7EB;
     box-shadow:  0px 2px 3px #ccc;
+    height: 66.4vh;
   }
   /*containers*/
   
@@ -144,8 +145,6 @@
       display: flex;
       flex-direction: row;
       margin-left: 32px;
-  
-      
     }
   
     .section{
@@ -210,6 +209,10 @@
       font-size: large;
       font-weight: bold;
      }
+
+     .footer{
+      border-top:1px solid #596D48;
+     }
   
      a{
       text-decoration: none;
@@ -217,11 +220,11 @@
       font-weight: bold;
      }
   
-     .footer > button{
-      margin: 40px 0 0 50px;
+      button{
+      margin: 60px 0 0 50px;
       padding: 13px 46px 13px 46px;
       border-radius: 10px;
-  
+     
       background-color: #596D48;
       color: white;
       border: none;
