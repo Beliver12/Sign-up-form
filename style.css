@@ -43,7 +43,6 @@
     height: 100%;
   }
   .textcontent,
-  
   .footer{
     height: 33.2vh;
     width: 50vw;
@@ -276,19 +275,7 @@
         content: " ";
         color: green;
       }
-      .credits{
-        position: absolute;
-        top: 860px;
-        width: 25vw;
-        height: 20px;
-        background-color: #000;
-        color: #fff;
-        opacity: .5;
-       font-size: 10px;
-      
-        display: flex;
-        justify-content: center;
-      }
+    
       .footer > p > a{
         font-size: medium;
       }
@@ -297,4 +284,59 @@
         font-size: medium;
         font-weight: bold;
        }
+       .main-container{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: none;
+        height: 100%;
+      }
+      .left-content, img{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .logo + span::after{
+        content: "ODIN";
+        position: relative;
+        left: 2px;
+        top: 1px;
+        font-size: 3rem;
+      }
+      
+      .logo{
+        width: 40px;
+        height: 40px;
+      }
+      
+      .logo-back{
+       position: absolute;
+       top: -6px;
+        width: 100%;
+        height: 56px;
+        background-color: #000;
+        color: #fff;
+        opacity: .5;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      
+      .credits{
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        height: 20px;
+        background-color: #000;
+        color: #fff;
+        opacity: .5;
+       font-size: small;
+      
+        display: flex;
+        justify-content: center;
+      }
     }
